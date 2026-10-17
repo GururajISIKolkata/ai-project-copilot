@@ -1,0 +1,27 @@
+MEETING TRANSCRIPT: Project Alpha Steering Committee
+Date: October 05, 2026
+Attendees: Sneha Patel (Project Lead), Rohan Verma (Tech Lead), Kavita Iyer (QA Lead), Rajesh Singhania (Client Sponsor)
+
+[00:02:15] Sneha Patel:
+Welcome everyone. Today we are reviewing the status of Project Alpha ERP Migration. Our main blocker right now is the Core API Integration. Rohan, can you give us an update?
+
+[00:03:00] Rohan Verma:
+Yes, Sneha. The Core API Integration is currently running 4 days late. We encountered unexpected schema discrepancies between the client's legacy database and our new REST endpoints. Because of this, data serialization is failing for user profiles.
+
+[00:04:30] Kavita Iyer:
+From the QA side, this is directly impacting User Acceptance Testing (UAT). My team cannot begin end-to-end test suites until the API endpoints are stabilized. We are effectively blocked.
+
+[00:05:45] Sneha Patel:
+Understood. What is the mitigation plan?
+
+[00:06:10] Rohan Verma:
+I propose we run an Emergency API Bug Bash session on October 12. We will pair two senior backend engineers with the database architect to resolve the serialization issues within 48 hours.
+
+[00:07:30] Rajesh Singhania:
+From the client steering committee side, we approve the bug bash plan. However, our hard go-live deadline for the entire ERP system cannot slip past December 15 due to fiscal year closing. Sneha, please ensure resource allocation is prioritized for Rohan's team.
+
+[00:09:00] Sneha Patel:
+Agreed. Key action items:
+1. Rohan Verma to lead Emergency API Bug Bash by October 12.
+2. Kavita Iyer to prepare UAT test cases in advance so testing can start immediately once API is unblocked.
+3. Sneha Patel to submit updated risk assessment report to leadership by Friday.
